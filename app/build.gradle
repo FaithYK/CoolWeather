@@ -25,4 +25,14 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    //LitePal是一个开源的Android库，允许开发人员非常容易地使用SQLite数据库。
+    implementation 'org.litepal.android:java:3.0.0'
+    //okhttp 用于网络请求
+    implementation 'com.squareup.okhttp3:okhttp:4.0.1'
+    //gson 用于解析JSON数据
+    implementation 'com.google.code.gson:gson:2.8.5'
+    //glide 用于加载和展示图片
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
 }
